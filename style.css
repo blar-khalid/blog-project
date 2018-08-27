@@ -1,0 +1,77 @@
+
+.container-fluid{
+    width:70%;
+    margin:0 auto;
+    background-image: linear-gradient(to right, #a8caba 0%, #5d4157 100%);
+
+
+}
+.ns{
+    background-image: linear-gradient(to right, #749787 0%, #1d0618 100%);
+    color: white
+    ;
+}
+a{
+    color: white
+}
+section{
+    height: 700px;
+    margin: 2px 0;
+   background: whitesmoke;
+    border: 1.5px solid  linear-gradient(45deg, #8baaaa 0%, #ae8b9c 100%);
+    border-radius: 12px;
+    color: linear-gradient(to right, #749787 0%, #1d0618 100%);
+}
+#title,#username,#id,#textarea,#email ,#post1,#post2,#name1,#name2,#name3{
+    border: 1px solid white;
+    border-radius: 20px;
+    color: wheat;
+}
+.postt{
+    width: 100%;
+    margin: 5px 0;
+    
+}
+.glyphicon-option-horizontal{
+    border-radius: 50px;
+}
+
+.btn-group{
+    position: absolute;
+    margin-left: 92%;
+    top: 1.5%;
+    color: white;
+}
+textarea, input:not([type=button]):not([type=submit]) {
+	width: 100%;
+	border: 1px solid rgba(0,0,0,.2);
+	padding: .5em 1em;
+  font-family: sans-serif;
+}
+input[type=button], input[type=submit] {
+	cursor: pointer;
+	margin: 0;
+	padding: .5em 2em;
+	background: #0298b6;
+	border: none;
+	color: #fff;
+}
+.group:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+form {
+  width: 30em;
+  margin: 0 auto;
+}
+form div.group > div {
+	width: 46%;
+	margin: 0 0 .5em;
+}
