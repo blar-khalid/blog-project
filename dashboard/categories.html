@@ -4,14 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css.map">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
     <title>Re:Coded Blog</title>
 </head>
-<body>
+<body>  
+    
         <div class="container-fluid">
                 <header>
                 <nav class="navbar navbar-expand-lg ns">
@@ -35,51 +33,52 @@
                     <li><a class="dropdown-item" href="#"> Menu item 1</a></li>
                     <li><a class="dropdown-item" href="#"> Menu item 2 </a></li>
                     </ul>
-                </li> 
+                </li>
               
                     </ul>
                   </div>
                 </nav></header>
                
-                    <section class="col-12 ">
-                            <div class="postt form-group col-12">
-                                    
-                                    <div class=" ns">
-                                        <form class="">
-                                                <div class="m-7">
-                                                        <input type="text" value="" id="categorie" placeholder="categorie" name="id" tabindex="4" />
-                                                      </div>
-                                            <div>
-                                              <button type="submit" class="btn-block btn btn-success btn-lg btn-block" id="post1">Post</button>
-                                            </div>
-                                          </form>
+                    <div class="postt form-group ">
+                            
+                            <div class="">
+                                <form class="">
+                                    <div class=" group">
+                                      <div class="left username">
+                                        <input type="text"  id="categories" placeholder="categories"  >
+                                      </div>
                                      
+                                    </div> 
+                                    
+                                    <div>
+                                      <button type="button" class="btn-block btn btn-success btn-lg btn-block" id="post1">Post</button>
                                     </div>
-                                  </div>
+                                  </form>
+                             
+                            </div>
+                          </div>
                     
-                        <div id="app" class="table-responsive">
-                            <table class="table table-bordered">
-                                <thead>
-                                    <tr>
+                    <div id="app" class="table-responsive">
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    
                                         <th>Id</th>
                                         <th>categories</th>
-                                        
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                   
-                                </tbody>
-                            </table>
-                    
-                        </div>
-                    </section>
+                                        <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbody1">
+                               
+                            </tbody>
+                        </table>
                 
-            
-      
-                    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-                    <script src="./catgoreis.js"></script>
-                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+                    </div>
+               
+                <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+                <script src="./catgoreis.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+                <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
 </html>

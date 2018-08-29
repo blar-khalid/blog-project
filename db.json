@@ -7,6 +7,7 @@
       "userId": 1,
       "categoryId": 1
     }
+    
   ],
   "comments": [
     {
@@ -15,6 +16,7 @@
       "postId": 1,
       "userId": 1
     }
+   
   ],
   "users": [
     {
@@ -28,25 +30,138 @@
       "id": 2
     },
     {
-      "email": "",
-      "name": "",
+      "email": "bilojan91@gmial.com",
+      "name": "jgjfgv",
       "id": 3
     },
     {
-      "email": "",
-      "name": "",
+      "email": "bilojan91@gmail.com",
+      "username": "blarharki@gmail.com",
       "id": 4
     },
     {
-      "email": "bilojan91@gmial.com",
-      "name": "",
+      "email": "bilojan91@gmail.com",
+      "username": "blarharki@gmail.com",
       "id": 5
+    },
+    {
+      "email": "bilojan91@gmail.com",
+      "username": "blarharki@gmail.com",
+      "id": 6
+    },
+    {
+      "email": "bilojan91@gmail.com",
+      "username": "blarharki@gmail.com",
+      "id": 7
+    },
+    {
+      "email": "bilojan91@gmail.com",
+      "username": "blarharki@gmail.com",
+      "id": 8
+    },
+    {
+      "email": "bilojan91@gmail.com",
+      "username": "blarharki@gmail.com",
+      "id": 9
+    },
+    {
+      "email": "bilojan41@gmial.com",
+      "username": "blarharki@gmail.com",
+      "id": 10
     }
   ],
   "categories": [
     {
       "id": 1,
       "name": "Uncatagorized"
+    },
+    {
+      "categories": "saddsdsd",
+      "id": 2
+    },
+    {
+      "categories": "saddsdsdds",
+      "id": 3
+    },
+    {
+      "categories": "saddsdsddsds",
+      "id": 4
+    },
+    {
+      "categories": "saddsdsddsds",
+      "id": 5
+    },
+    {
+      "categories": "saddsdsddsds",
+      "id": 6
+    },
+    {
+      "categories": "saddsdsddsds",
+      "id": 7
+    },
+    {
+      "categories": "saddsdsddsds",
+      "id": 8
+    },
+    {
+      "categories": "saddsdsddsds",
+      "id": 9
+    },
+    {
+      "categories": "saddsdsddsds",
+      "id": 10
+    },
+    {
+      "categories": "saddsdsddsds",
+      "id": 11
+    },
+    {
+      "categories": "saddsdsddsds",
+      "id": 12
+    },
+    {
+      "categories": "saddsdsddsds",
+      "id": 13
+    },
+    {
+      "categories": "saddsdsddsds",
+      "id": 14
+    },
+    {
+      "categories": "saddsdsddsds",
+      "id": 15
+    },
+    {
+      "categories": "saddsdsddsds",
+      "id": 16
+    },
+    {
+      "categories": "saddsdsddsds",
+      "id": 17
+    },
+    {
+      "categories": "saddsdsddsds",
+      "id": 18
+    },
+    {
+      "categories": "saddsdsddsds",
+      "id": 19
+    },
+    {
+      "categories": "saddsdsddsds",
+      "id": 20
+    },
+    {
+      "categories": "saddsdsddsds",
+      "id": 21
+    },
+    {
+      "categories": "saddsdsddsds",
+      "id": 22
+    },
+    {
+      "categories": "sadman",
+      "id": 23
     }
   ]
 }

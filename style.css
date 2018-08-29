@@ -22,7 +22,11 @@ section{
     border-radius: 12px;
     color: linear-gradient(to right, #749787 0%, #1d0618 100%);
 }
-#title,#username,#id,#textarea,#email ,#post1,#post2,#name1,#name2,#name3{
+.username{
+    margin-right: 2%;
+}
+#title,#username,#id,#body1,#userid,#email ,#post1,#postid,#name1,#categories,#name3{
+    margin-bottom: 2%;
     border: 1px solid white;
     border-radius: 20px;
     color: wheat;

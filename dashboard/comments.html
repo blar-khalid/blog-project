@@ -4,14 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css.map">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="../style.css">
     <title>Re:Coded Blog</title>
 </head>
-<body> 
+<body>  
     
         <div class="container-fluid">
                 <header>
@@ -30,7 +27,7 @@
                     <li class="nav-item"><a class="nav-link" href="./comments.html">comments</a></li>
                     <li class="nav-item"><a class="nav-link" href="./posts.html">posts</a></li>
                     <li class="nav-item"><a class="nav-link" href="./users.html">users</a></li>
-                 <li class="nav-item dropdown">
+                <li class="nav-item dropdown">
                   <a class="nav-link  dropdown-toggle" href="#" data-toggle="dropdown">  categories  </a>
                     <ul class="dropdown-menu">
                     <li><a class="dropdown-item" href="#"> Menu item 1</a></li>
@@ -41,49 +38,50 @@
                     </ul>
                   </div>
                 </nav></header>
-                <section class="col-12 ">
-                        <div class="postt form-group ">
-                               
-                                <div class="">
-                                    <form class="">
-                                        <div class=" group">
-                                          <div class="left">
-                                            <input type="text" value="" id="userId" placeholder="userId" name="userId" tabindex="5"  />
-                                          </div>
-                                        
-                                          <div class="right">
-                                            <input type="text" value="" id="postsId" placeholder="postsId" name="postsId" tabindex="5"  />
-                                          </div> 
-                                        </div>
-                                        <div>
-                                          <textarea placeholder="What is in Your main" name="message" id="textarea" tabindex="5" rows="10" ></textarea>
-                                        </div>
-                                        <div>
-                                          <button type="submit" class="btn-block btn btn-success btn-lg btn-block" id="post1">comment</button>
-                                        </div>
-                                      </form>
-                                 
-                                </div>
-                              </div>
+               
+                    <div class="postt form-group ">
+                            
+                            <div class="">
+                                <form class="">
+                                    <div class=" group">
+                                      <div class="left username">
+                                        <input type="text"  id="userid" placeholder=""  >
+                                      </div>
+                                      <div class="left">
+                                            <input type="text"  id="postid" placeholder="" >
+                                     </div>
+                                    </div> 
+                                    <div>
+                                        <textarea placeholder="What is in Your main"  id="body1" tabindex="10" rows="10" ></textarea>
+                                      </div>
+                                    <div>
+                                      <button type="button" class="btn-block btn btn-success btn-lg btn-block" id="post1">Post</button>
+                                    </div>
+                                  </form>
+                             
+                            </div>
+                          </div>
                     
                     <div id="app" class="table-responsive">
                         <table class="table table-bordered">
                             <thead>
                                 <tr>
-                                    <th>id</th>
-                                    <th>body</th>
-                                    <th>postsId</th>
-                                    <th>userId</th>
+                                                              
+                                <th>id</th>
+                                <th>userId</th>
+                                <th>postId</th>
+                                <th>body</th>
+                                <th>Actions</th>
+                                                              
                                 </tr>
                             </thead>
-                            <tbody>
+                            <tbody id="tbody1">
                                
                             </tbody>
                         </table>
                 
                     </div>
-                </section>
-      
+               
                 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
                 <script src="./comments.js"></script>
